@@ -1,4 +1,4 @@
-목표 및 목적
+# 목표 및 목적
 
 1. 문제 분석
    
@@ -28,7 +28,7 @@ OS : [Microsoft Windows 10 Home 버전 2004(OS 빌드 19041)]
 
 코드 룰
 
-# 변수명
+변수명
 my_age = 13
 
 
@@ -47,5 +47,5 @@ if __name__ == "__main__":
     my_age.reveal_your_weight()
 
 
-# 개발 스택을 Tkinter로 한 이유
+* 개발 스택을 Tkinter로 한 이유
 Tkinter와 PyQt5을 비교해봤는데 PyQt5보다 Tkinter가 간단하고 배우기 쉬울 것 같아서 선택했습니다.
