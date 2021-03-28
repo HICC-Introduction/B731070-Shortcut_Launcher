@@ -15,18 +15,18 @@
 
 2. 개발 사양
 하드웨어
-* CPU : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, 2.71 GHz, 4core
-  RAM : 8.00GB
-  SSD : 128GB
-  GPU : Intel(R) HD Graphics 620 (내장그래픽)
+  * CPU : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, 2.71 GHz, 4core
+  * RAM : 8.00GB
+  * SSD : 128GB
+  * GPU : Intel(R) HD Graphics 620 (내장그래픽)
 
 소프트웨어
-OS : [Microsoft Windows 10 Home 버전 2004(OS 빌드 19041)]
-개발 스택 : [Tkinter]
-개발 프로그램 : Sublime Text 3
-개발 언어 : [Python v3.8]
+  * OS : [Microsoft Windows 10 Home 버전 2004(OS 빌드 19041)]
+  * 개발 스택 : [Tkinter]
+  * 개발 프로그램 : Sublime Text 3
+  * 개발 언어 : [Python v3.8]
 
-코드 룰
+3. 코드 룰
 
 변수명
 my_age = 13
@@ -37,7 +37,6 @@ class PersonImformation:
     def __init__(self):
         @property
         self.my_weight = 41
-        
     def reveal_your_weight(self):
         print(self.my_weight)
 
