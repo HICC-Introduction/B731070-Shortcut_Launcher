@@ -32,7 +32,7 @@ btn_list = []                   # 버튼 리스트 생성
 for row_btn in range(2):        # 2행
     for col_btn in range(4):    # 4열
         btn = Button(Turbo)     # 버튼 생성
-        if(row_btn < 1):        # 1열일 때, 2열의 버튼은 구성하지 않았기 때문
+        if(row_btn < 1):        # 1행일 때, 2행의 버튼은 구성하지 않았기 때문
             btn.config(image = new_image[col_btn]) # 버튼 이미지 넣기 
             btn.config(command = def_name[col_btn]) # 버튼 기능 이식
         btn.grid(column = col_btn, row = row_btn, padx = 10, pady = 10) # 그리드 형식으로 버튼 생성
